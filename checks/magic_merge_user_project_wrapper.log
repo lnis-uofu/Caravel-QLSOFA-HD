@@ -1,0 +1,15 @@
+
+Magic 8.3 revision 87 - Compiled on Tue Dec  8 20:37:11 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "../SOFA-Chips/SCRIPT/merge_fpga_top.tcl" from command line.
+Scaled magic input cell user_project_wrapper geometry by factor of 2
+Processing timestamp mismatches: fpga_top.
+   Writing cell user_project_wrapper

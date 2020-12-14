@@ -1,0 +1,78 @@
+caravel 100
+r_0_met4.5b
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met4.5b: Metal4 > 3um spacing to unrelated m4 < 0.4um 
+r_0_met3.3d
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met3.3d: Metal3 > 3um spacing to unrelated m3 < 0.4um 
+r_0_UnknownRul
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+UnknownRul: ["Can't overlap those layers"]
+r_0_met2.7
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met2.7: Min area of metal2 holes > 0.14um^2 
+r_0_met3.2
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met3.2: Metal3 spacing < 0.3um 
+r_0_met3.1
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met3.1: Metal3 width < 0.3um 
+r_0_met2.3b
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met2.3b: Metal2 > 3um spacing to unrelated m2 < 0.28um 
+p 1 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700
+p 2 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700
+r_0_met1.3b
+1000 1000 2 Nov 29 03:26:39 2020
+Rule File Pathname: ./checks/caravel.magic.drc
+met1.3b: Metal1 > 3um spacing to unrelated m1 < 0.28um 
+p 1 4
+218600 502700
+218600 502700
+218600 502800
+218600 502800
+p 2 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700
+p 3 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700
+p 4 4
+218600 502800
+218600 502800
+218600 502800
+218600 502800
+p 5 4
+218600 502700
+218600 502700
+218600 502800
+218600 502800
+p 6 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700
+p 7 4
+218600 502700
+218600 502700
+218600 502700
+218600 502700

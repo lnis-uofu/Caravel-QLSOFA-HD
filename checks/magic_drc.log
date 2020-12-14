@@ -1,0 +1,68 @@
+
+Magic 8.3 revision 87 - Compiled on Tue Dec  8 20:37:11 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/bin/drc_checks/magic_drc_check.tcl" from command line.
+caravel: 10000 rects
+caravel: 20000 rects
+caravel: 30000 rects
+caravel: 40000 rects
+caravel: 50000 rects
+caravel: 60000 rects
+caravel: 70000 rects
+caravel: 80000 rects
+[INFO]: Loading caravel
+
+"noduplicates" isn't a valid gds option.
+GDS commands have the form ":gds option", where option is one of:
+    help		print this help information
+    addendum [yes|no]	output only cells that are not type "readonly"
+    arrays [yes|no]	output arrays as individual subuses (like in CIF)
+    contacts [yes|no]	optimize output by arraying contacts as subcells
+    drccheck [yes|no]	mark all cells as needing DRC checking
+    flatten [yes|no|limit]	flatten simple cells (e.g., contacts) on input
+    ordering [on|off]	cause cells to be read in post-order
+    labels [yes|no]	cause labels to be output when writing GDS-II
+    library [yes|no]	do not output the top level, only subcells
+    lower [yes|no]		allow both upper and lower case in labels
+    merge [yes|no]		merge tiles into polygons in the output
+    read file		read Calma GDS-II format from "file"
+		into edit cell
+    readonly [yes|no]	set cell as read-only and generate output from GDS file
+    rescale [yes|no]	allow or disallow internal grid subdivision
+    warning [option]	set warning information level
+    write file		output Calma GDS-II format to "file"
+		for the window's root cell
+    polygon subcells [yes|no]
+		put non-Manhattan polygons into subcells
+    path subcells [yes|no]
+		put wire paths into individual subcells
+If no option is given, a CALMA GDS-II stream file is
+    produced for the root cell.
+The current CIF output style ("cif ostyle") is used
+    to select the mask layers output by :gds write.
+The current CIF input style ("cif istyle") is used
+    to select the mask layers read by :gds read.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "user_project_wrapper".
+Error while reading cell "user_project_wrapper" (byte position 325534): cell fpga_top was used but not defined.
+chip_io: 10000 rects
+Cell fpga_top couldn't be read
+Cell fpga_top is unavailable.  It could not be expanded.
+Processing timestamp mismatches: chip_io, mgmt_protect, user_id_programming, storage, mgmt_core, sky130_fd_sc_hvl__lsbufhv2lv_1_wrapped, simple_por, gpio_control_block.
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+[INFO]: COUNT: 142
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/usr/local/workspace/Caravel-QLSOFA-HD/checks/caravel.magic.drc)
+[INFO]: Saving mag view with DRC errors(/usr/local/workspace/Caravel-QLSOFA-HD/checks/caravel.magic.drc.mag)
+[INFO]: Saved
