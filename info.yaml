@@ -17,6 +17,6 @@ project:
     - "OpenSource FPGA IP"
   category: "Test Harness"
   top_level_netlist: "verilog/gl/caravel.v"
-  user_level_netlist: "verilog/gl/caravel_qlsofa_hd_top.v"
+  user_level_netlist: "verilog/gl/user_project_wrapper.v"
   version: "1.00"
   cover_image: "doc/ciic_harness.png"
