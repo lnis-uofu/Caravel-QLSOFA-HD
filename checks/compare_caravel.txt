@@ -1,0 +1,29 @@
+ .travis.yml                                 |    39 -
+ .travisCI/runPrecheck.sh                    |    35 -
+ .travisCI/travisBuild.sh                    |    28 -
+ README.md                                   |   158 +-
+ checks/caravel.magic.drc                    |   104 +
+ checks/caravel.magic.drc.mag                | 80938 ++++++++++++++++++++++++++
+ checks/caravel.magic.namelist               |     1 +
+ checks/caravel.magic.rdb                    |    63 +
+ checks/caravel.magic.typelist               |     1 +
+ checks/full_log.log                         |    56 +
+ checks/magic_drc.log                        |  7511 +++
+ checks/magic_extract.log                    | 13197 +++++
+ checks/magic_merge_user_project_wrapper.log |  7666 +++
+ checks/manifest_check.mag.log               |     2 +
+ checks/manifest_check.maglef.log            |    13 +
+ checks/manifest_check.rtl.log               |    37 +
+ checks/mprj.magic.namelist                  |     1 +
+ checks/mprj.magic.typelist                  |     1 +
+ checks/spdx_compliance_report.log           |   110 +
+ gds/caravel.gds.gz                          |   Bin 52991493 -> 57486171 bytes
+ gds/user_proj_example.gds.gz                |   Bin 742584 -> 0 bytes
+ gds/user_project_wrapper.gds.gz             |   Bin 6394035 -> 4306435 bytes
+ gds/user_project_wrapper_empty.gds.gz       |   Bin 73084 -> 0 bytes
+ info.yaml                                   |    20 +-
+ mag/.magicrc                                |    16 -
+ mag/user_project_wrapper_empty.mag          |     3 +
+ qflow/digital_pll_controller/tech           |     1 -
+ qflow/ring_osc2x13/tech                     |     1 -
+ 28 files changed, 109729 insertions(+), 273 deletions(-)

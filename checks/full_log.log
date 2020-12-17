@@ -5,8 +5,8 @@ Step 0 done without fatal errors.
 {{LICENSE COMPLIANCE PASSED}} Apache-2.0 LICENSE file was found in project root
  No third party libraries found.
 Step 1 done without fatal errors.
-{{SPDX COMPLIANCE WARNING}} Found 261 non-compliant files with the SPDX Standard. Check full log for more information
-SPDX COMPLIANCE: NON-COMPLIANT FILES PREVIEW: ['/usr/local/workspace/Caravel-QLSOFA-HD/.travis.yml', '/usr/local/workspace/Caravel-QLSOFA-HD/Makefile', '/usr/local/workspace/Caravel-QLSOFA-HD/mpw-one-a.md', '/usr/local/workspace/Caravel-QLSOFA-HD/.travisCI/runPrecheck.sh', '/usr/local/workspace/Caravel-QLSOFA-HD/.travisCI/travisBuild.sh', '/usr/local/workspace/Caravel-QLSOFA-HD/doc/caravel_datasheet.ps', '/usr/local/workspace/Caravel-QLSOFA-HD/gds/gds2mag-all.sh', '/usr/local/workspace/Caravel-QLSOFA-HD/gds/gen_caravel.tcl', '/usr/local/workspace/Caravel-QLSOFA-HD/mag/.magicrc', '/usr/local/workspace/Caravel-QLSOFA-HD/mag/bump_bond.tcl', '/usr/local/workspace/Caravel-QLSOFA-HD/mag/dot.magicrc.dist', '/usr/local/workspace/Caravel-QLSOFA-HD/mag/mag2maglef-all.sh', '/usr/local/workspace/Caravel-QLSOFA-HD/mag/run_lvs_por.sh', '/usr/local/workspace/Caravel-QLSOFA-HD/maglef/.magicrc', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/digital_pll.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/digital_pll_controller.xspice', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/digital_pll_tb.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/inverter_tb.spi', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/ring_osc2x13.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/ngspice/digital_pll/ring_osc2x13.spice.bak']
+{{SPDX COMPLIANCE WARNING}} Found 108 non-compliant files with the SPDX Standard. Check full log for more information
+SPDX COMPLIANCE: NON-COMPLIANT FILES PREVIEW: ['/usr/local/workspace/Caravel-QLSOFA-HD/README.md', '/usr/local/workspace/Caravel-QLSOFA-HD/source_commit_hash.txt', '/usr/local/workspace/Caravel-QLSOFA-HD/doc/caravel_datasheet.ps', '/usr/local/workspace/Caravel-QLSOFA-HD/openlane/chip_dimensions.txt', '/usr/local/workspace/Caravel-QLSOFA-HD/openlane/mgmt_protect/pdn.tcl', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/DFFRAM.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/chip_io.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/digital_pll.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/gpio_control_block.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/simple_por.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/storage.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/user_id_programming.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/mgmt_core.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/mgmt_protect.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/mgmt_protect_hv.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/mprj2_logic_high.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/mprj_logic_high.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/sky130_fd_sc_hvl__lsbufhv2lv_1_wrapped.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/user_proj_example.spice', '/usr/local/workspace/Caravel-QLSOFA-HD/spi/lvs/user_project_wrapper.spice']
  Executing Step 2 of 4: Checking YAML description.
  YAML file valid!
 Step 2 done without fatal errors.
@@ -23,19 +23,34 @@ b'Going into /usr/local/workspace/Caravel-QLSOFA-HD/mag'
 b'Removing manifest'
 b'Fetching manifest'
 b'Running sha1sum checks'
- Manifest Checks Passed. RTL Version Matches.
+ Nothing Happened
  Documentation Checks Passed.
  Makefile Checks Passed.
 instance caravel found
 instance user_project_wrapper found
 Design is complex and contains: 47 modules
-Design is complex and contains: 613583 modules
+Design is complex and contains: 2 modules
 verilog Consistency Checks Passed.
-Pins check passed
  Basic Hierarchy Checks Passed.
  Running Magic Extractions From GDS...
- Consistency Checks Failed+ Reason: GDS Checks Failed: The GDS is not valid/corrupt contains cells that are used but not defined. Please check `/usr/local/workspace/Caravel-QLSOFA-HD/checks/magic_extract.log` in the output directory for more details.
+user wrapper cell names differences: 
+['mprj']
+user wrapper cell type differences: 
+['user_proj_example']
+toplevel cell names differences: 
+['user_project_wrapper_0', 'mprj']
+toplevel cell type differences: 
+[]
+ Consistency Checks Failed+ Reason: GDS Checks Failed: Hierarchy Matching Failed
  Executing Step 4 of 4: Checking DRC Violations.
  Running DRC Checks...
- DRC Checks on MAG Failed, Reason: The MAG is not valid/corrupt contains cells that are used but not defined. Please check `/usr/local/workspace/Caravel-QLSOFA-HD/checks/magic_drc.log` in the output directory for more details.
+Violation Message "Metal4 > 3um spacing to unrelated m4 < 0.4um (met4.5b) "found 6 Times.
+Violation Message "Metal3 > 3um spacing to unrelated m3 < 0.4um (met3.3d) "found 2 Times.
+Violation Message "Can't overlap those layers "found 2 Times.
+Violation Message "Min area of metal2 holes > 0.14um^2 (met2.7) "found 20 Times.
+Violation Message "Metal3 spacing < 0.3um (met3.2) "found 6 Times.
+Violation Message "Metal3 width < 0.3um (met3.1) "found 1 Times.
+Violation Message "Metal1 > 3um spacing to unrelated m1 < 0.28um (met1.3b) "found 17 Times.
+Violation Message "Metal2 > 3um spacing to unrelated m2 < 0.28um (met2.3b) "found 21 Times.
+ DRC Checks on MAG Failed, Reason: Total # of DRC violations is 75
 TEST FAILED AT STEP 4
