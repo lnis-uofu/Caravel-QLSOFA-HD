@@ -40,6 +40,7 @@ SPDX NON-COMPLIANT FILES
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/gl/mgmt_protect_hv.v
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/gl/mprj2_logic_high.v
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/gl/mprj_logic_high.v
+/usr/local/workspace/Caravel-QLSOFA-HD/verilog/gl/caravel_qlsofa_hd_top.v
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/rtl/mgmt_soc.v
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/rtl/picorv32.v
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/rtl/simpleuart.v
@@ -91,7 +92,10 @@ SPDX NON-COMPLIANT FILES
 /usr/local/workspace/Caravel-QLSOFA-HD/verilog/OpenFPGA_Verilog/sub_module/wires.v
 /usr/local/workspace/Caravel-QLSOFA-HD/checks/caravel.magic.namelist
 /usr/local/workspace/Caravel-QLSOFA-HD/checks/caravel.magic.typelist
+/usr/local/workspace/Caravel-QLSOFA-HD/checks/compare_caravel.txt
 /usr/local/workspace/Caravel-QLSOFA-HD/mag/clamp_list.txt
+/usr/local/workspace/Caravel-QLSOFA-HD/mag/.magicrc
+/usr/local/workspace/Caravel-QLSOFA-HD/maglef/.magicrc
 /usr/local/workspace/Caravel-QLSOFA-HD/OpenFPGA_task/design_variables.yml
 /usr/local/workspace/Caravel-QLSOFA-HD/OpenFPGA_task/generate_fabric.openfpga
 /usr/local/workspace/Caravel-QLSOFA-HD/OpenFPGA_task/generate_testbench.openfpga
