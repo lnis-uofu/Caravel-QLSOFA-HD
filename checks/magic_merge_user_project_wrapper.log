@@ -12,7 +12,7 @@ Loading sky130A Device Generator Menu ...
 Loading "../SOFA-Chips/SCRIPT/merge_fpga_top.tcl" from command line.
 Warning: Calma reading is not undoable!  I hope that's OK.
 Library written using GDS-II Release 5.0
-Library name: fpga_top_icv_in_design.gdsgz.merge916252762
+Library name: fpga_top_icv_in_design.gdsgz.merge492568710
 Reading "sky130_fd_sc_hd__a2111o_1".
 Reading "sky130_fd_sc_hd__a2111o_2".
 Reading "sky130_fd_sc_hd__a2111o_4".
@@ -6854,9 +6854,6 @@ Reading "grid_clb".
     7300 uses
     7400 uses
     7500 uses
-    7600 uses
-    7700 uses
-    7800 uses
 Reading "sb_0__0_".
     100 uses
     200 uses
@@ -7628,16 +7625,17 @@ Processing timestamp mismatches: fpga_top.
    Writing cell sky130_fd_sc_hd__mux2_1
    Writing cell sky130_fd_sc_hd__conb_1
    Writing cell grid_clb
-   Writing cell sky130_fd_sc_hd__tapvpwrvgnd_1
    Writing cell sky130_fd_sc_hd__buf_4
    Writing cell sky130_fd_sc_hd__buf_2
    Writing cell sky130_fd_sc_hd__sdfrtp_1
-   Writing cell sky130_fd_sc_hd__mux2_2
    Writing cell sky130_fd_sc_hd__inv_2
    Writing cell sky130_fd_sc_hd__or2_0
    Writing cell sky130_fd_sc_hd__dlygate4sd1_1
+   Writing cell sky130_fd_sc_hd__clkbuf_8
    Writing cell sb_0__0_
    Writing cell sky130_fd_sc_hd__inv_6
+   Writing cell sky130_fd_sc_hd__tapvpwrvgnd_1
+   Writing cell sky130_fd_sc_hd__mux2_2
    Writing cell sb_0__1_
    Writing cell sb_0__2_
    Writing cell sb_1__0_
@@ -7655,7 +7653,6 @@ Processing timestamp mismatches: fpga_top.
    Writing cell cby_0__1_
    Writing cell cby_1__1_
    Writing cell cby_2__1_
-   Writing cell sky130_fd_sc_hd__clkbuf_8
    Writing cell $$M2M3_PR_C
    Writing cell $$M4M5_PR_16000_16000_2_7
    Writing cell $$M4M5_PR_16000_16000_1_7

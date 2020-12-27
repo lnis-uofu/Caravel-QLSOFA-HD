@@ -98,21 +98,20 @@ CIF file read warning: CIF style sky130: units rescaled by factor of 5 / 1
     3100 uses
     3200 uses
     3300 uses
-Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
 Reading "sky130_fd_sc_hd__buf_4".
-Error while reading cell "sky130_fd_sc_hd__buf_4" (byte position 415732): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__buf_4" (byte position 414044): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sky130_fd_sc_hd__buf_2".
-Error while reading cell "sky130_fd_sc_hd__buf_2" (byte position 421140): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__buf_2" (byte position 419452): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sky130_fd_sc_hd__sdfrtp_1".
-Error while reading cell "sky130_fd_sc_hd__sdfrtp_1" (byte position 425640): Unknown layer/datatype in boundary, layer=236 type=0
-Reading "sky130_fd_sc_hd__mux2_2".
-Error while reading cell "sky130_fd_sc_hd__mux2_2" (byte position 444530): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__sdfrtp_1" (byte position 423952): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sky130_fd_sc_hd__inv_2".
-Error while reading cell "sky130_fd_sc_hd__inv_2" (byte position 451780): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__inv_2" (byte position 442840): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sky130_fd_sc_hd__or2_0".
-Error while reading cell "sky130_fd_sc_hd__or2_0" (byte position 455588): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__or2_0" (byte position 446648): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sky130_fd_sc_hd__dlygate4sd1_1".
-Error while reading cell "sky130_fd_sc_hd__dlygate4sd1_1" (byte position 459550): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__dlygate4sd1_1" (byte position 450610): Unknown layer/datatype in boundary, layer=236 type=0
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Error while reading cell "sky130_fd_sc_hd__clkbuf_8" (byte position 456076): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "grid_clb".
     100 uses
     200 uses
@@ -189,11 +188,11 @@ Reading "grid_clb".
     7300 uses
     7400 uses
     7500 uses
-    7600 uses
-    7700 uses
-    7800 uses
 Reading "sky130_fd_sc_hd__inv_6".
-Error while reading cell "sky130_fd_sc_hd__inv_6" (byte position 1060042): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__inv_6" (byte position 1042048): Unknown layer/datatype in boundary, layer=236 type=0
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__mux2_2".
+Error while reading cell "sky130_fd_sc_hd__mux2_2" (byte position 1049748): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sb_0__0_".
     100 uses
     200 uses
@@ -327,7 +326,7 @@ Reading "sb_0__2_".
     3500 uses
     3600 uses
 Reading "sky130_fd_sc_hd__buf_12".
-Error while reading cell "sky130_fd_sc_hd__buf_12" (byte position 2133366): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__buf_12" (byte position 2124312): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sb_1__0_".
     100 uses
     200 uses
@@ -395,7 +394,7 @@ Reading "sb_1__0_".
     6400 uses
     6500 uses
 Reading "sky130_fd_sc_hd__dlygate4sd2_1".
-Error while reading cell "sky130_fd_sc_hd__dlygate4sd2_1" (byte position 2685088): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__dlygate4sd2_1" (byte position 2676034): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sb_1__1_".
     100 uses
     200 uses
@@ -484,7 +483,7 @@ Reading "sb_1__1_".
     8500 uses
     8600 uses
 Reading "sky130_fd_sc_hd__buf_16".
-Error while reading cell "sky130_fd_sc_hd__buf_16" (byte position 3477772): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__buf_16" (byte position 3468718): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "sb_1__2_".
     100 uses
     200 uses
@@ -750,7 +749,7 @@ Reading "cbx_1__1_".
     4000 uses
     4100 uses
 Reading "sky130_fd_sc_hd__or2b_4".
-Error while reading cell "sky130_fd_sc_hd__or2b_4" (byte position 5682026): Unknown layer/datatype in boundary, layer=236 type=0
+Error while reading cell "sky130_fd_sc_hd__or2b_4" (byte position 5672972): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "cbx_1__2_".
     100 uses
     200 uses
@@ -848,8 +847,6 @@ Reading "cby_1__1_".
     3600 uses
     3700 uses
     3800 uses
-Reading "sky130_fd_sc_hd__clkbuf_8".
-Error while reading cell "sky130_fd_sc_hd__clkbuf_8" (byte position 6528084): Unknown layer/datatype in boundary, layer=236 type=0
 Reading "cby_2__1_".
     100 uses
     200 uses
